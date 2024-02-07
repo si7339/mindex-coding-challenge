@@ -13,6 +13,10 @@ public class Employee {
     public Employee() {
     }
 
+    public Employee(String string) {
+        //TODO Auto-generated constructor stub
+    }
+
     public String getEmployeeId() {
         return employeeId;
     }
