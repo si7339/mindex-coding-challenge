@@ -1,5 +1,7 @@
 package com.mindex.challenge.data;
 
+import java.util.Objects;
+
 public class ReportingStructure {
     private Employee employee;
     private int numberOfReports; 
@@ -9,6 +11,10 @@ public class ReportingStructure {
     this.numberOfReports = numberOfReports;  
     
     }
+
+    /*
+     * getters and setters
+     */
 
     public Employee getEmployee(){
         return this.employee;
@@ -25,4 +31,17 @@ public class ReportingStructure {
     public void setNumberOfReports(int numberOfReports){
         this.numberOfReports = numberOfReports;
     }
+
+    //override equals method to check if two object instances are equal
+    @Override
+    public boolean equals(Object o) {
+        if (o == this)
+            return true;
+        if (!(o instanceof ReportingStructure)) {
+            return false;
+        }
+        ReportingStructure reportingStructure = (ReportingStructure) o;
+        return Objects.equals(employee, reportingStructure.employee) 
+            && numberOfReports == reportingStructure.numberOfReports;
+    } 
 }
