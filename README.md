@@ -6,7 +6,8 @@ Lastly, the REST endpoint for /reportingStructure/{id} is in src\main\java\com\m
 To test this:
 1)	Open up localhost:8080 on chrome
 2)	Look up employee ID’s (ex: John Lennon ID: “16a596ae-edd3-4847-99fe-c4518e82c86f”)
-![Alt text](C:\Users\shami\Downloads\mindex-java-code-challenge\mindex-java-code-challenge\image.png)
+![image](https://github.com/si7339/mindex-coding-challenge/assets/47131569/ac3b3bfb-991b-494f-a404-801e08673b22)
+
 As you can see, it works as expected- returns number of reports as 4. 
 
 # For Task 2 
