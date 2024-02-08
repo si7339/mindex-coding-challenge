@@ -3,6 +3,10 @@ package com.mindex.challenge.data;
 import java.util.Objects;
 
 public class ReportingStructure {
+    /*
+     * Task1 ReportingStructure.java class
+     * needs employee and numberofReports to calculate total number of reports
+     */
     private Employee employee;
     private int numberOfReports; 
     
