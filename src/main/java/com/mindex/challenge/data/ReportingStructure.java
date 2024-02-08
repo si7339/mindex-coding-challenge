@@ -44,4 +44,13 @@ public class ReportingStructure {
         return Objects.equals(employee, reportingStructure.employee) 
             && numberOfReports == reportingStructure.numberOfReports;
     } 
+
+    
+    @Override
+    public String toString() {
+        return "ReportingStructure{" +
+                "employee=" + employee +
+                ", numberOfReports=" + numberOfReports +
+                '}';
+    }
 }

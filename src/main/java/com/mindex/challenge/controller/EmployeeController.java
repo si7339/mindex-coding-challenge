@@ -37,7 +37,8 @@ public class EmployeeController {
         return employeeService.update(employee);
     }
 
-    @GetMapping("/employee/{id}/reporting-structure")
+    //adding REST endpoint for reportingStructure 
+    @GetMapping("/reportingStructure/{id}")
     public ReportingStructure getReportingStructure(@PathVariable String id) {
         LOG.debug("Received reporting structure request for employee id [{}]", id);
 
