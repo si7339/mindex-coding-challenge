@@ -3,6 +3,9 @@ package com.mindex.challenge.data;
 import java.util.Date;
 
 public class Compensation {
+    /*
+     * Compensation needs employee, its desired salary and the date it is effective.
+     */
     private Employee employee;
     private double salary;
     private Date effectiveDate;
@@ -43,10 +46,8 @@ public class Compensation {
 
     @Override
     public String toString() {
-        return "{" +
-                "\"employeeId\":\"" + employee.getEmployeeId() + "\"" +
-                ", \"salary\":" + salary +
-                ", \"effectiveDate\":\"" + effectiveDate + "\"" +
+        return "{" + "employeeId" + employee.getEmployeeId() +
+                ", salary:" + salary + ", effectiveDate:" + effectiveDate +
                 "}";
     }
     

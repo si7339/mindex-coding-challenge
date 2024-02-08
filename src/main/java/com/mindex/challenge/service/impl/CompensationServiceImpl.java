@@ -13,6 +13,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class CompensationServiceImpl implements CompensationService {
 
+    /**
+     * Service Handler to handle creating of compensation and reading of compensation to be used by the controller class. 
+     */
     private static final Logger LOG = LoggerFactory.getLogger(CompensationServiceImpl.class);
 
     @Autowired
