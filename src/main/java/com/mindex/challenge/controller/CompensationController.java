@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class CompensationController {
 
+    /**
+     * Main two endpoints for Task#2- handles the POST to create a compensation request and reading of compensation for specific 
+     * employee ID's 
+     */
+
     private static final Logger LOG = LoggerFactory.getLogger(CompensationController.class);
 
     @Autowired
