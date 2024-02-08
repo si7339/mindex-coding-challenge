@@ -49,6 +49,10 @@ public class EmployeeServiceImpl implements EmployeeService {
         return employeeRepository.save(employee);
     }
 
+    /*
+     * Method to calculate the total number of reports
+     * Uses recursion to keep track of the total count
+     */
     @Override
     public int calculateNumberOfReports(String empID) {
         int reportCount = 0;
