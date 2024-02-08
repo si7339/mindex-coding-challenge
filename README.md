@@ -6,9 +6,8 @@ Lastly, the REST endpoint for /reportingStructure/{id} is in src\main\java\com\m
 To test this:
 1)	Open up localhost:8080 on chrome
 2)	Look up employee ID’s (ex: John Lennon ID: “16a596ae-edd3-4847-99fe-c4518e82c86f”)
-![image](https://github.com/si7339/mindex-coding-challenge/assets/47131569/ac3b3bfb-991b-494f-a404-801e08673b22)
-
-As you can see, it works as expected- returns number of reports as 4. 
+![image](https://github.com/si7339/mindex-coding-challenge/assets/47131569/98a73884-74f2-4984-8433-9728f96e2ad9)
+As you can see, it works as expected- returns number of reports as 4.
 
 # For Task 2 
 Created Compensation.java, CompensationController.java, CompensationService.java CompensationServiceImpl.java, and CompensationRepository.java
@@ -24,10 +23,11 @@ To test this:
   	    "effectiveDate": "2024-02-07"
   }
 3) In Postman it would be something like: 
-![Alt text](C:\Users\shami\Downloads\mindex-java-code-challenge\mindex-java-code-challenge\image-2.png)
+![image](https://github.com/si7339/mindex-coding-challenge/assets/47131569/6e720e6e-8ab5-481d-8f74-54defbd9eb8d)
 4) Test reading of the request using GET on POSTMAN or on chrome use the path http://localhost:8080/compensation/16a596ae-edd3-4847-99fe-c4518e82c86f
 5) For example, you can see the full GET request for id: 16a596ae-edd3-4847-99fe-c4518e82c86f here 
-![Alt text](C:\Users\shami\Downloads\mindex-java-code-challenge\mindex-java-code-challenge\image-2.png)
+![image](https://github.com/si7339/mindex-coding-challenge/assets/47131569/37af1202-2fc7-4e52-b6a0-dfb7b0d77162)
+
 
 
 ## What's Provided
