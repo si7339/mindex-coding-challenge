@@ -6,7 +6,7 @@ Lastly, the REST endpoint for /reportingStructure/{id} is in src\main\java\com\m
 To test this:
 1)	Open up localhost:8080 on chrome
 2)	Look up employee ID’s (ex: John Lennon ID: “16a596ae-edd3-4847-99fe-c4518e82c86f”)
-![Alt text](image.png)
+![Alt text](C:\Users\shami\Downloads\mindex-java-code-challenge\mindex-java-code-challenge\image.png)
 As you can see, it works as expected- returns number of reports as 4. 
 
 # For Task 2 
@@ -23,10 +23,10 @@ To test this:
   	    "effectiveDate": "2024-02-07"
   }
 3) In Postman it would be something like: 
-![Alt text](image-1.png)
+![Alt text](C:\Users\shami\Downloads\mindex-java-code-challenge\mindex-java-code-challenge\image-2.png)
 4) Test reading of the request using GET on POSTMAN or on chrome use the path http://localhost:8080/compensation/16a596ae-edd3-4847-99fe-c4518e82c86f
 5) For example, you can see the full GET request for id: 16a596ae-edd3-4847-99fe-c4518e82c86f here 
-![Alt text](image-2.png)
+![Alt text](C:\Users\shami\Downloads\mindex-java-code-challenge\mindex-java-code-challenge\image-2.png)
 
 
 ## What's Provided
